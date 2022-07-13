@@ -1,4 +1,4 @@
-import Cie10 from "../models/cie10.models";
+import Cie10 from "../models/cie10.models.js";
 import { readFileSync } from 'fs';
 
 export const findAllCie10 = async (req, res) => {

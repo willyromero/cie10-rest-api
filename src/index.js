@@ -1,5 +1,10 @@
 import app from './app.js'
-import './database'
+import './database.js'
 
-app.listen(app.get('port'));
-console.log("server on port: ", app.get('port'));
+async function main() {
+    app.listen(app.get('port'));
+    console.log("server on port: ", app.get('port'));
+}
+
+main();
+

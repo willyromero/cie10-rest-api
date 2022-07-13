@@ -1,5 +1,5 @@
 import { Router } from "express";
-import *as cie10Controller from "../controllers/cie10.controller";
+import *as cie10Controller from "../controllers/cie10.controller.js";
 
 const router = Router();
 
