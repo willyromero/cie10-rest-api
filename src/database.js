@@ -6,5 +6,5 @@ import config from '../config';
         useNewUrlParser: true,
         useUnifiedTopology: true,
     });
-    console.log("Connected to database: ", db.connection.name);
+    console.log("Connected to database:", db.connection.name);
 })();

@@ -30,7 +30,7 @@ export const findCie10ByMatch = async (req, res) => {
         const cie10 = await Cie10.find({ $or: [{ chapter: match }, { cod_cie10_3: match }, { cod_cie10_4: match }] });
         res.json(cie10);
     } catch (error) {
-        res.status(500).send(`Cannot macth nothing with: ${math}`);
+        res.status(500).send(`Cannot macth nothing with: ${match}`);
     }
 }
 
